@@ -1,3 +1,4 @@
+
 .grid {
 	display: grid;
 	grid-template-rows: auto auto auto;
@@ -36,8 +37,46 @@
     height: 90vh;
     
 }
+.victory_menu {
+    display: none;
+}
 
 img {
     height: 40vh;
     width: 20vw;
 }
+
+
+
+
+#victory_menu {
+	display: none;
+	flex-direction: column;
+	height: 90vh;
+	width: 100vw;
+	align-items: center;
+}
+.option {
+	width: 90vw;
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#record {
+	display: flex;
+	flex-direction: column;
+}
+
+
+* {
+	font-size: 5vh;
+}
+
+button {
+	height: 25vh;
+	width: 25vw;
+	
+} 

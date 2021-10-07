@@ -1,5 +1,5 @@
-.victory_menu {
-	display: flex;
+#victory_menu {
+	display: none;
 	flex-direction: column;
 	height: 90vh;
 	width: 100vw;
@@ -19,7 +19,13 @@
 	flex-direction: column;
 }
 
-button {
-	height: 20vh;
-	width: 20vw;
+
+* {
+	font-size: 5vh;
 }
+
+button {
+	height: 25vh;
+	width: 25vw;
+	
+} 

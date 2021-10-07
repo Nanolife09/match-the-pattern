@@ -6,22 +6,34 @@
 		<script type = "text/javascript" src = "script.js"></script>
 	</head>
 	<body onload = "menu()">
-		<div id = "menu"><h1>Select Difficulty: </h1></div>
-	    <div id= "container">
-    	    <div style="text-align: center">
-                <h1>Game</h1>
-        		<div id = "table" class = "grid"></div>
-    		</div>
-    		<div>
-    	    	<img src = "arrow.png">
-    	    	<p id="timer" style = "text-align: center"></p>
-    	    	<p id="click" style = "text-align: center"></p>
-    		</div>
-            <div style="text-align: center">
-    	        <h1>Sample</h1>
-    	        <div id = "sample" class = "grid"></div>
-            </div>
-        </div>
+		<div id = "game">
+			<div id = "menu"><h1>Select Difficulty: </h1></div>
+	    	<div id= "container">
+    		    <div style="text-align: center">
+        	        <h1>Game</h1>
+        			<div id = "table" class = "grid"></div>
+    			</div>
+    			<div>
+    		    	<img src = "arrow.png">
+    		    	<p id="timer" style = "text-align: center"></p>
+    		    	<p id="click" style = "text-align: center"></p>
+    			</div>
+        	    <div style="text-align: center">
+    		        <h1>Sample</h1>
+    		        <div id = "sample" class = "grid"></div>
+        	    </div>
+        	</div>
+		</div>
+		<div id = "victory_menu">
+			<h1 style = "text-align: center">You WIN!</h1>
+       	 	<div class = "option">
+				<div id = "record">
+					<p id = "time"></p>
+					<p id = "click"></p>
+				</div>
+            	<!--<button id = "replay">Watch replay</button>-->
+        	</div>
+		</div>
         <p style="text-align: right">sorry</p>
 	</body>
 </html>
