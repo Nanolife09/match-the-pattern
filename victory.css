@@ -1,0 +1,25 @@
+.victory_menu {
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	width: 100vw;
+	align-items: center;
+}
+.option {
+	width: 90vw;
+	height: 80vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#record {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	height: 20vh;
+	width: 20vw;
+}

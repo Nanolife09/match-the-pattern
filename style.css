@@ -1,0 +1,43 @@
+.grid {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto auto;
+	width: 30vw;
+	height: 30vw;
+	border: 2px solid black;
+}
+
+.grid > div {
+	border: .2em solid white;
+	
+}
+
+#container {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+#timer-container {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu {
+    display: flex;
+    flex-direction:columns;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 90vh;
+    
+}
+
+img {
+    height: 40vh;
+    width: 20vw;
+}
